@@ -1,22 +1,23 @@
-<!DOCTYPE html>
+<!doctype html>
 <html lang="es">
+
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>AI IN UNIVERSITY: HELP OR SALVATION?</title>
-    
+
     <!-- Librerías Externas -->
     <script src="https://cdn.tailwindcss.com"></script>
     <script src="https://cdn.jsdelivr.net/npm/chart.js"></script>
     <script src="https://cdn.jsdelivr.net/npm/chartjs-plugin-datalabels@2.0.0"></script>
-    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    
-    <!-- Enlace a tu archivo CSS -->
-    <link rel="stylesheet" href="style.css">
-</head>
-<body class="text-gray-800">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;800&display=swap" rel="stylesheet" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css" />
 
+    <!-- Enlace a tu archivo CSS -->
+    <link rel="stylesheet" href="style.css" />
+</head>
+
+<body class="text-gray-800">
     <!-- Encabezado Principal -->
     <header class="bg-white shadow-md pt-4 pb-8 px-4 sm:px-6 lg:px-8 mb-8 border-t-8 border-[#0B2545]">
         <div class="max-w-7xl mx-auto">
@@ -29,28 +30,35 @@
                         9-B INGENIERIA EN DESARROLLO Y GESTION DE SOFTWARE
                     </p>
                 </div>
-                <div class="text-right text-sm font-bold text-[#3b82f6] tracking-wider uppercase mt-4 md:mt-0 bg-[#eff6ff] px-4 py-2 rounded-full border border-[#93c5fd]">
+                <div
+                    class="text-right text-sm font-bold text-[#3b82f6] tracking-wider uppercase mt-4 md:mt-0 bg-[#eff6ff] px-4 py-2 rounded-full border border-[#93c5fd]">
                     Inglés VIII
                 </div>
             </div>
-            
+
             <div class="flex flex-col md:flex-row justify-between items-center gap-6">
                 <!-- Títulos -->
                 <div class="flex-1 text-center md:text-left">
                     <h1 class="text-4xl sm:text-5xl font-extrabold text-gray-900 tracking-tight mb-2">
-                        AI IN UNIVERSITY: <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-green-500">HELP OR SALVATION?</span>
+                        AI IN UNIVERSITY:
+                        <span class="text-transparent bg-clip-text bg-gradient-to-r from-blue-600 to-green-500">HELP OR
+                            SALVATION?</span>
                     </h1>
                     <h2 class="text-xl sm:text-2xl font-medium text-gray-500">
                         University Survey about Artificial Intelligence
                     </h2>
                 </div>
-                
+
                 <!-- Logo Principal -->
-                <div class="w-32 h-32 md:w-48 md:h-48 flex-shrink-0 relative rounded-2xl overflow-hidden border-4 border-[#134074] shadow-lg bg-white">
+                <div
+                    class="w-32 h-32 md:w-48 md:h-48 flex-shrink-0 relative rounded-2xl overflow-hidden border-4 border-[#134074] shadow-lg bg-white">
                     <div class="upload-btn-wrapper h-full flex items-center justify-center p-2">
-                        <img id="mainLogoPreview" src="logo_ia.png" alt="Main Logo" class="w-full h-full object-contain">
-                        <input type="file" name="mainLogo" id="mainLogoInput" accept="image/*" onchange="previewMainLogo(event)" />
-                        <div class="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center opacity-0 hover:opacity-100 transition-opacity cursor-pointer text-white text-sm text-center p-2 font-semibold">
+                        <img id="mainLogoPreview" src="logo_ia.png" alt="Main Logo"
+                            class="w-full h-full object-contain" />
+                        <input type="file" name="mainLogo" id="mainLogoInput" accept="image/*"
+                            onchange="previewMainLogo(event)" />
+                        <div
+                            class="absolute inset-0 bg-black bg-opacity-50 flex flex-col items-center justify-center opacity-0 hover:opacity-100 transition-opacity cursor-pointer text-white text-sm text-center p-2 font-semibold">
                             <i class="fas fa-upload text-2xl mb-2"></i>
                             Click to change image
                         </div>
@@ -64,20 +72,25 @@
                 <h3 class="text-lg font-semibold text-gray-700 mb-4 text-center md:text-left">
                     <i class="fas fa-users text-[#3b82f6] mr-2"></i>Team Members
                 </h3>
-                
+
                 <!-- Tarjetas de Integrantes Fijas -->
                 <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-4">
-                    
                     <!-- Integrante 1 -->
                     <div class="team-member-card group">
-                        <div class="flex items-center space-x-3 p-3 bg-white rounded-xl border border-gray-200 shadow-sm transition-all duration-300 relative overflow-hidden">
-                            <div class="absolute left-0 top-0 bottom-0 w-1 bg-gradient-to-b from-[#3b82f6] to-[#10b981] opacity-0 group-hover:opacity-100 transition-opacity"></div>
-                            <div class="flex-shrink-0 w-10 h-10 rounded-full bg-blue-50 flex items-center justify-center text-blue-500 group-hover:bg-blue-500 group-hover:text-white transition-colors duration-300">
+                        <div
+                            class="flex items-center space-x-3 p-3 bg-white rounded-xl border border-gray-200 shadow-sm transition-all duration-300 relative overflow-hidden">
+                            <div
+                                class="absolute left-0 top-0 bottom-0 w-1 bg-gradient-to-b from-[#3b82f6] to-[#10b981] opacity-0 group-hover:opacity-100 transition-opacity">
+                            </div>
+                            <div
+                                class="flex-shrink-0 w-10 h-10 rounded-full bg-blue-50 flex items-center justify-center text-blue-500 group-hover:bg-blue-500 group-hover:text-white transition-colors duration-300">
                                 <i class="fas fa-user-graduate"></i>
                             </div>
                             <div>
                                 <!-- REEMPLAZA EL NOMBRE AQUÍ -->
-                                <p class="text-sm font-bold text-gray-800 group-hover:text-[#0B2545] transition-colors">Escandon Marcos Carlos David</p>
+                                <p class="text-sm font-bold text-gray-800 group-hover:text-[#0B2545] transition-colors">
+                                    Escandon Marcos Carlos David
+                                </p>
                                 <p class="text-xs text-gray-500 font-medium"></p>
                             </div>
                         </div>
@@ -85,14 +98,20 @@
 
                     <!-- Integrante 2 -->
                     <div class="team-member-card group">
-                        <div class="flex items-center space-x-3 p-3 bg-white rounded-xl border border-gray-200 shadow-sm transition-all duration-300 relative overflow-hidden">
-                            <div class="absolute left-0 top-0 bottom-0 w-1 bg-gradient-to-b from-[#3b82f6] to-[#10b981] opacity-0 group-hover:opacity-100 transition-opacity"></div>
-                            <div class="flex-shrink-0 w-10 h-10 rounded-full bg-blue-50 flex items-center justify-center text-blue-500 group-hover:bg-blue-500 group-hover:text-white transition-colors duration-300">
+                        <div
+                            class="flex items-center space-x-3 p-3 bg-white rounded-xl border border-gray-200 shadow-sm transition-all duration-300 relative overflow-hidden">
+                            <div
+                                class="absolute left-0 top-0 bottom-0 w-1 bg-gradient-to-b from-[#3b82f6] to-[#10b981] opacity-0 group-hover:opacity-100 transition-opacity">
+                            </div>
+                            <div
+                                class="flex-shrink-0 w-10 h-10 rounded-full bg-blue-50 flex items-center justify-center text-blue-500 group-hover:bg-blue-500 group-hover:text-white transition-colors duration-300">
                                 <i class="fas fa-user-graduate"></i>
                             </div>
                             <div>
                                 <!-- REEMPLAZA EL NOMBRE AQUÍ -->
-                                <p class="text-sm font-bold text-gray-800 group-hover:text-[#0B2545] transition-colors">Nicolas Cortez Juan Carlos</p>
+                                <p class="text-sm font-bold text-gray-800 group-hover:text-[#0B2545] transition-colors">
+                                    Nicolas Cortez Juan Carlos
+                                </p>
                                 <p class="text-xs text-gray-500 font-medium"></p>
                             </div>
                         </div>
@@ -100,14 +119,20 @@
 
                     <!-- Integrante 3 -->
                     <div class="team-member-card group">
-                        <div class="flex items-center space-x-3 p-3 bg-white rounded-xl border border-gray-200 shadow-sm transition-all duration-300 relative overflow-hidden">
-                            <div class="absolute left-0 top-0 bottom-0 w-1 bg-gradient-to-b from-[#3b82f6] to-[#10b981] opacity-0 group-hover:opacity-100 transition-opacity"></div>
-                            <div class="flex-shrink-0 w-10 h-10 rounded-full bg-blue-50 flex items-center justify-center text-blue-500 group-hover:bg-blue-500 group-hover:text-white transition-colors duration-300">
+                        <div
+                            class="flex items-center space-x-3 p-3 bg-white rounded-xl border border-gray-200 shadow-sm transition-all duration-300 relative overflow-hidden">
+                            <div
+                                class="absolute left-0 top-0 bottom-0 w-1 bg-gradient-to-b from-[#3b82f6] to-[#10b981] opacity-0 group-hover:opacity-100 transition-opacity">
+                            </div>
+                            <div
+                                class="flex-shrink-0 w-10 h-10 rounded-full bg-blue-50 flex items-center justify-center text-blue-500 group-hover:bg-blue-500 group-hover:text-white transition-colors duration-300">
                                 <i class="fas fa-user-graduate"></i>
                             </div>
                             <div>
                                 <!-- REEMPLAZA EL NOMBRE AQUÍ -->
-                                <p class="text-sm font-bold text-gray-800 group-hover:text-[#0B2545] transition-colors">Mastache Salinas Yael</p>
+                                <p class="text-sm font-bold text-gray-800 group-hover:text-[#0B2545] transition-colors">
+                                    Mastache Salinas Yael
+                                </p>
                                 <p class="text-xs text-gray-500 font-medium"></p>
                             </div>
                         </div>
@@ -115,88 +140,134 @@
 
                     <!-- Integrante 4 -->
                     <div class="team-member-card group">
-                        <div class="flex items-center space-x-3 p-3 bg-white rounded-xl border border-gray-200 shadow-sm transition-all duration-300 relative overflow-hidden">
-                            <div class="absolute left-0 top-0 bottom-0 w-1 bg-gradient-to-b from-[#3b82f6] to-[#10b981] opacity-0 group-hover:opacity-100 transition-opacity"></div>
-                            <div class="flex-shrink-0 w-10 h-10 rounded-full bg-blue-50 flex items-center justify-center text-blue-500 group-hover:bg-blue-500 group-hover:text-white transition-colors duration-300">
+                        <div
+                            class="flex items-center space-x-3 p-3 bg-white rounded-xl border border-gray-200 shadow-sm transition-all duration-300 relative overflow-hidden">
+                            <div
+                                class="absolute left-0 top-0 bottom-0 w-1 bg-gradient-to-b from-[#3b82f6] to-[#10b981] opacity-0 group-hover:opacity-100 transition-opacity">
+                            </div>
+                            <div
+                                class="flex-shrink-0 w-10 h-10 rounded-full bg-blue-50 flex items-center justify-center text-blue-500 group-hover:bg-blue-500 group-hover:text-white transition-colors duration-300">
                                 <i class="fas fa-user-graduate"></i>
                             </div>
                             <div>
                                 <!-- REEMPLAZA EL NOMBRE AQUÍ -->
-                                <p class="text-sm font-bold text-gray-800 group-hover:text-[#0B2545] transition-colors">Bryant Isidro Morales Ramirez</p>
+                                <p class="text-sm font-bold text-gray-800 group-hover:text-[#0B2545] transition-colors">
+                                    Bryant Isidro Morales Ramirez
+                                </p>
                                 <p class="text-xs text-gray-500 font-medium"></p>
                             </div>
                         </div>
                     </div>
-
                 </div>
             </div>
         </div>
     </header>
 
     <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 pb-12">
-
         <!-- Sección de Gráficos -->
         <section class="mb-16">
-            <h2 class="text-3xl font-bold text-[#0B2545] mb-8 text-center">Survey Results</h2>
+            <h2 class="text-3xl font-bold text-[#0B2545] mb-8 text-center">
+                Survey Results
+            </h2>
             <div class="grid grid-cols-1 lg:grid-cols-2 gap-10">
                 <div class="animated-border-card">
                     <div class="card-inner p-6">
-                        <h3 class="text-lg font-semibold text-gray-800 mb-4 h-14">1. What is the most useful AI tool for university students?</h3>
-                        <div class="chart-wrapper flex-grow"><canvas id="chart1"></canvas></div>
+                        <h3 class="text-lg font-semibold text-gray-800 mb-4 h-14">
+                            1. What is the most useful AI tool for university students?
+                        </h3>
+                        <div class="chart-wrapper flex-grow">
+                            <canvas id="chart1"></canvas>
+                        </div>
                     </div>
                 </div>
                 <div class="animated-border-card">
                     <div class="card-inner p-6">
-                        <h3 class="text-lg font-semibold text-gray-800 mb-4 h-14">2. Which subject becomes the easiest with AI?</h3>
-                        <div class="chart-wrapper flex-grow"><canvas id="chart2"></canvas></div>
+                        <h3 class="text-lg font-semibold text-gray-800 mb-4 h-14">
+                            2. Which subject becomes the easiest with AI?
+                        </h3>
+                        <div class="chart-wrapper flex-grow">
+                            <canvas id="chart2"></canvas>
+                        </div>
                     </div>
                 </div>
                 <div class="animated-border-card">
                     <div class="card-inner p-6">
-                        <h3 class="text-lg font-semibold text-gray-800 mb-4 h-14">3. What is the hardest assignment without AI?</h3>
-                        <div class="chart-wrapper flex-grow"><canvas id="chart3"></canvas></div>
+                        <h3 class="text-lg font-semibold text-gray-800 mb-4 h-14">
+                            3. What is the hardest assignment without AI?
+                        </h3>
+                        <div class="chart-wrapper flex-grow">
+                            <canvas id="chart3"></canvas>
+                        </div>
                     </div>
                 </div>
                 <div class="animated-border-card">
                     <div class="card-inner p-6">
-                        <h3 class="text-lg font-semibold text-gray-800 mb-4 h-14">4. Which activity do students use AI for the most?</h3>
-                        <div class="chart-wrapper flex-grow"><canvas id="chart4"></canvas></div>
+                        <h3 class="text-lg font-semibold text-gray-800 mb-4 h-14">
+                            4. Which activity do students use AI for the most?
+                        </h3>
+                        <div class="chart-wrapper flex-grow">
+                            <canvas id="chart4"></canvas>
+                        </div>
                     </div>
                 </div>
                 <div class="animated-border-card">
                     <div class="card-inner p-6">
-                        <h3 class="text-lg font-semibold text-gray-800 mb-4 h-14">5. What is the biggest advantage of AI in university?</h3>
-                        <div class="chart-wrapper flex-grow"><canvas id="chart5"></canvas></div>
+                        <h3 class="text-lg font-semibold text-gray-800 mb-4 h-14">
+                            5. What is the biggest advantage of AI in university?
+                        </h3>
+                        <div class="chart-wrapper flex-grow">
+                            <canvas id="chart5"></canvas>
+                        </div>
                     </div>
                 </div>
                 <div class="animated-border-card">
                     <div class="card-inner p-6">
-                        <h3 class="text-lg font-semibold text-gray-800 mb-4 h-14">6. What is the worst disadvantage of AI?</h3>
-                        <div class="chart-wrapper flex-grow"><canvas id="chart6"></canvas></div>
+                        <h3 class="text-lg font-semibold text-gray-800 mb-4 h-14">
+                            6. What is the worst disadvantage of AI?
+                        </h3>
+                        <div class="chart-wrapper flex-grow">
+                            <canvas id="chart6"></canvas>
+                        </div>
                     </div>
                 </div>
                 <div class="animated-border-card">
                     <div class="card-inner p-6">
-                        <h3 class="text-lg font-semibold text-gray-800 mb-4 h-14">7. Which class would be the hardest without AI?</h3>
-                        <div class="chart-wrapper flex-grow"><canvas id="chart7"></canvas></div>
+                        <h3 class="text-lg font-semibold text-gray-800 mb-4 h-14">
+                            7. Which class would be the hardest without AI?
+                        </h3>
+                        <div class="chart-wrapper flex-grow">
+                            <canvas id="chart7"></canvas>
+                        </div>
                     </div>
                 </div>
                 <div class="animated-border-card">
                     <div class="card-inner p-6">
-                        <h3 class="text-lg font-semibold text-gray-800 mb-4 h-14">8. What is the easiest thing to do with AI?</h3>
-                        <div class="chart-wrapper flex-grow"><canvas id="chart8"></canvas></div>
+                        <h3 class="text-lg font-semibold text-gray-800 mb-4 h-14">
+                            8. What is the easiest thing to do with AI?
+                        </h3>
+                        <div class="chart-wrapper flex-grow">
+                            <canvas id="chart8"></canvas>
+                        </div>
                     </div>
                 </div>
                 <div class="animated-border-card">
                     <div class="card-inner p-6">
-                        <h3 class="text-lg font-semibold text-gray-800 mb-4 h-14">9. Which students depend on AI the most?</h3>
-                        <div class="chart-wrapper flex-grow"><canvas id="chart9"></canvas></div>
+                        <h3 class="text-lg font-semibold text-gray-800 mb-4 h-14">
+                            9. Which students depend on AI the most?
+                        </h3>
+                        <div class="chart-wrapper flex-grow">
+                            <canvas id="chart9"></canvas>
+                        </div>
                     </div>
                 </div>
                 <div class="animated-border-card">
                     <div class="card-inner p-6">
-                        <h3 class="text-lg font-semibold text-gray-800 mb-4 h-14 text-center">10. What is the most common reason students use AI?</h3>
-                        <div class="chart-wrapper flex-grow"><canvas id="chart10"></canvas></div>
+                        <h3 class="text-lg font-semibold text-gray-800 mb-4 h-14 text-center">
+                            10. What is the most common reason students use AI?
+                        </h3>
+                        <div class="chart-wrapper flex-grow">
+                            <canvas id="chart10"></canvas>
+                        </div>
                     </div>
                 </div>
             </div>
@@ -204,21 +275,28 @@
 
         <!-- Sección de Video Interactiva -->
         <section class="mb-16">
-            <h2 class="text-3xl font-bold text-[#0B2545] mb-8 border-b-2 border-[#10b981] pb-2 inline-block">Interactive Presentation</h2>
-            <div id="videoWrapper" class="video-container relative rounded-2xl overflow-hidden shadow-2xl bg-[#0B2545] mx-auto max-w-4xl border-4 border-white">
-                <div class="absolute top-0 left-0 w-full p-4 flex justify-between items-center z-10 bg-gradient-to-b from-black/80 to-transparent text-white">
-                    <span class="font-semibold tracking-wider"><i class="fas fa-play-circle text-[#10b981] mr-2"></i> Project Overview</span>
-                    <div class="flex gap-3">
-                        <button id="speedBtn" class="bg-white/20 hover:bg-white/40 backdrop-blur-md px-3 py-1 rounded text-sm font-bold transition-all border border-white/30">1x Speed</button>
-                        <button id="fullscreenBtn" class="hover:text-[#10b981] transition-colors bg-white/20 hover:bg-white/40 p-2 rounded backdrop-blur-md border border-white/30"><i class="fas fa-expand fa-lg"></i></button>
-                    </div>
+            <h2 class="text-3xl font-bold text-[#0B2545] mb-8 border-b-2 border-[#10b981] pb-2 inline-block">
+                Interactive Presentation
+            </h2>
+            <div id="videoWrapper"
+                class="video-container relative rounded-2xl overflow-hidden shadow-2xl bg-[#0B2545] mx-auto max-w-4xl border-4 border-white">
+                <div
+                    class="absolute top-0 left-0 w-full p-4 flex justify-between items-center z-30 bg-gradient-to-b from-black/80 to-transparent text-white pointer-events-none">
+                    <span class="font-semibold tracking-wider">
+                        <i class="fas fa-play-circle text-[#10b981] mr-2"></i>
+                        Project Overview
+                    </span>
                 </div>
-                <video id="mainVideo" class="w-full h-auto cursor-pointer" poster="https://placehold.co/1280x720/0B2545/10b981?text=Click+to+Play+Video">
-                    <source src="https://drive.google.com/file/d/1nmZOPbedab9KSezhnUHYpLjN_eEhHmq3/view?usp=drive_link" type="video/mp4">
-                    Your browser does not support HTML video.
-                </video>
-                <div id="videoOverlay" class="absolute inset-0 flex items-center justify-center pointer-events-none transition-opacity duration-300">
-                    <button id="playPauseBtn" class="pointer-events-auto w-24 h-24 bg-white/10 hover:bg-white/30 backdrop-blur-lg rounded-full flex items-center justify-center text-white transition-all transform hover:scale-110 shadow-[0_0_40px_rgba(16,185,129,0.4)] border border-white/40 group">
+
+                <iframe class="w-full aspect-video relative z-20" src="https://www.youtube.com/embed/SFnfBUdFNv8"
+                    title="AI in University: Help or Salvation?" frameborder="0"
+                    allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+                    allowfullscreen>
+                </iframe>
+                <div id="videoOverlay"
+                    class="absolute inset-0 flex items-center justify-center pointer-events-none transition-opacity duration-300">
+                    <button id="playPauseBtn"
+                        class="pointer-events-auto w-24 h-24 bg-white/10 hover:bg-white/30 backdrop-blur-lg rounded-full flex items-center justify-center text-white transition-all transform hover:scale-110 shadow-[0_0_40px_rgba(16,185,129,0.4)] border border-white/40 group">
                         <i class="fas fa-play fa-3x ml-2 text-[#10b981] group-hover:text-white transition-colors"></i>
                     </button>
                 </div>
@@ -226,139 +304,226 @@
         </section>
 
         <!-- Galería de Estudiantes -->
-        <!-- Galería de Estudiantes (Fija) -->
-<section class="mb-12">
-    <h2 class="text-3xl font-bold text-[#0B2545] mb-8 border-b-2 border-[#3b82f6] pb-2 inline-block">Student Profiles / Evidences</h2>
-    
-    <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10" id="imageGallery">
-        
-        <!-- TARJETA 1 -->
-        <div class="animated-border-card group">
-            <div class="card-inner p-5 flex flex-col items-center">
-                <div class="w-full relative mb-5 overflow-hidden rounded-lg">
-                    <img id="imgPreview1" src="IMG_4237.JPG" alt="Evidencia Juan" class="image-preview" onclick="openModal(this.src, 'Juan', '5-B Desarrollo de Negocios')">
-                    
-                    <div class="absolute top-2 right-2 bg-white bg-opacity-90 p-2 rounded-full text-gray-800 opacity-0 group-hover:opacity-100 transition-opacity cursor-pointer z-10 shadow-md hover:text-blue-600" onclick="openModal(document.getElementById('imgPreview1').src, 'Juan', '5-B Desarrollo de Negocios'); event.stopPropagation();" title="Ver completo">
-                        <i class="fas fa-expand-alt fa-lg"></i>
+        <section class="mb-12">
+            <h2 class="text-3xl font-bold text-[#0B2545] mb-8 border-b-2 border-[#3b82f6] pb-2 inline-block">
+                Student Profiles / Evidences
+            </h2>
+
+            <div class="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-10" id="imageGallery">
+                <!-- TARJETA 1 -->
+                <div class="animated-border-card group">
+                    <div class="card-inner p-5 flex flex-col items-center">
+                        <div class="w-full relative mb-5 overflow-hidden rounded-lg">
+                            <img id="imgPreview1" src="IMG_4237.JPG" alt="Evidencia Juan" class="image-preview" onclick="
+                    openModal(this.src, 'Juan', '5-B Desarrollo de Negocios')
+                  " />
+
+                            <div class="absolute top-2 right-2 bg-white bg-opacity-90 p-2 rounded-full text-gray-800 opacity-0 group-hover:opacity-100 transition-opacity cursor-pointer z-10 shadow-md hover:text-blue-600"
+                                onclick="
+                    openModal(
+                      document.getElementById('imgPreview1').src,
+                      'Juan',
+                      '5-B Desarrollo de Negocios',
+                    );
+                    event.stopPropagation();
+                  " title="Ver completo">
+                                <i class="fas fa-expand-alt fa-lg"></i>
+                            </div>
+                        </div>
+                        <!-- Textos Fijos -->
+                        <div class="w-full text-center space-y-1">
+                            <h4 class="font-bold text-gray-800 text-lg border-b-2 border-gray-100 pb-2">
+                                Imanol Bernal Velaquez
+                            </h4>
+                            <p class="text-sm font-medium text-gray-500 pt-1">
+                                9-A Mantenimiento
+                            </p>
+                        </div>
                     </div>
                 </div>
-                <!-- Textos Fijos -->
-                <div class="w-full text-center space-y-1">
-                    <h4 class="font-bold text-gray-800 text-lg border-b-2 border-gray-100 pb-2">Imanol Bernal Velaquez</h4>
-                    <p class="text-sm font-medium text-gray-500 pt-1">9-A Mantenimiento</p>
-                </div>
-            </div>
-        </div>
 
-        <!-- TARJETA 2 -->
-        <div class="animated-border-card group">
-            <div class="card-inner p-5 flex flex-col items-center">
-                <div class="w-full relative mb-5 overflow-hidden rounded-lg">
-                    <img id="imgPreview2" src="IMG_4236.JPG" alt="Evidencia Maria" class="image-preview" onclick="openModal(this.src, 'Maria', '5-B Desarrollo de Negocios')">
-                    
-                    <div class="absolute top-2 right-2 bg-white bg-opacity-90 p-2 rounded-full text-gray-800 opacity-0 group-hover:opacity-100 transition-opacity cursor-pointer z-10 shadow-md hover:text-blue-600" onclick="openModal(document.getElementById('imgPreview2').src, 'Maria', '5-B Desarrollo de Negocios'); event.stopPropagation();" title="Ver completo">
-                        <i class="fas fa-expand-alt fa-lg"></i>
+                <!-- TARJETA 2 -->
+                <div class="animated-border-card group">
+                    <div class="card-inner p-5 flex flex-col items-center">
+                        <div class="w-full relative mb-5 overflow-hidden rounded-lg">
+                            <img id="imgPreview2" src="IMG_4236.JPG" alt="Evidencia Maria" class="image-preview"
+                                onclick="
+                    openModal(this.src, 'Maria', '5-B Desarrollo de Negocios')
+                  " />
+
+                            <div class="absolute top-2 right-2 bg-white bg-opacity-90 p-2 rounded-full text-gray-800 opacity-0 group-hover:opacity-100 transition-opacity cursor-pointer z-10 shadow-md hover:text-blue-600"
+                                onclick="
+                    openModal(
+                      document.getElementById('imgPreview2').src,
+                      'Maria',
+                      '5-B Desarrollo de Negocios',
+                    );
+                    event.stopPropagation();
+                  " title="Ver completo">
+                                <i class="fas fa-expand-alt fa-lg"></i>
+                            </div>
+                        </div>
+                        <div class="w-full text-center space-y-1">
+                            <h4 class="font-bold text-gray-800 text-lg border-b-2 border-gray-100 pb-2">
+                                Jose Alejando Tores Dominguez
+                            </h4>
+                            <p class="text-sm font-medium text-gray-500 pt-1">
+                                9-B Gastronomia
+                            </p>
+                        </div>
                     </div>
                 </div>
-                <div class="w-full text-center space-y-1">
-                    <h4 class="font-bold text-gray-800 text-lg border-b-2 border-gray-100 pb-2">Jose Alejando Tores Dominguez</h4>
-                    <p class="text-sm font-medium text-gray-500 pt-1">9-B Gastronomia</p>
-                </div>
-            </div>
-        </div>
 
-        <!-- TARJETA 3 -->
-        <div class="animated-border-card group">
-            <div class="card-inner p-5 flex flex-col items-center">
-                <div class="w-full relative mb-5 overflow-hidden rounded-lg">
-                    <img id="imgPreview3" src="IMG_4238.JPG" alt="Evidencia Carlos" class="image-preview" onclick="openModal(this.src, 'Carlos', '5-B Desarrollo de Negocios')">
-                    
-                    <div class="absolute top-2 right-2 bg-white bg-opacity-90 p-2 rounded-full text-gray-800 opacity-0 group-hover:opacity-100 transition-opacity cursor-pointer z-10 shadow-md hover:text-blue-600" onclick="openModal(document.getElementById('imgPreview3').src, 'Carlos', '5-B Desarrollo de Negocios'); event.stopPropagation();" title="Ver completo">
-                        <i class="fas fa-expand-alt fa-lg"></i>
+                <!-- TARJETA 3 -->
+                <div class="animated-border-card group">
+                    <div class="card-inner p-5 flex flex-col items-center">
+                        <div class="w-full relative mb-5 overflow-hidden rounded-lg">
+                            <img id="imgPreview3" src="IMG_4238.JPG" alt="Evidencia Carlos" class="image-preview"
+                                onclick="
+                    openModal(this.src, 'Carlos', '5-B Desarrollo de Negocios')
+                  " />
+
+                            <div class="absolute top-2 right-2 bg-white bg-opacity-90 p-2 rounded-full text-gray-800 opacity-0 group-hover:opacity-100 transition-opacity cursor-pointer z-10 shadow-md hover:text-blue-600"
+                                onclick="
+                    openModal(
+                      document.getElementById('imgPreview3').src,
+                      'Carlos',
+                      '5-B Desarrollo de Negocios',
+                    );
+                    event.stopPropagation();
+                  " title="Ver completo">
+                                <i class="fas fa-expand-alt fa-lg"></i>
+                            </div>
+                        </div>
+                        <div class="w-full text-center space-y-1">
+                            <h4 class="font-bold text-gray-800 text-lg border-b-2 border-gray-100 pb-2">
+                                Esteban Soloreono Valle
+                            </h4>
+                            <p class="text-sm font-medium text-gray-500 pt-1">
+                                9-A Mantenimiento Industrial
+                            </p>
+                        </div>
                     </div>
                 </div>
-                <div class="w-full text-center space-y-1">
-                    <h4 class="font-bold text-gray-800 text-lg border-b-2 border-gray-100 pb-2">Esteban Soloreono Valle</h4>
-                    <p class="text-sm font-medium text-gray-500 pt-1">9-A Mantenimiento Industrial</p>
-                </div>
-            </div>
-        </div>
-        
-        <!-- TARJETA 4 -->
-        <div class="animated-border-card group">
-            <div class="card-inner p-5 flex flex-col items-center">
-                <div class="w-full relative mb-5 overflow-hidden rounded-lg">
-                    <img id="imgPreview3" src="Tobias.JPG" alt="Evidencia Carlos" class="image-preview" onclick="openModal(this.src, 'Carlos', '5-B Desarrollo de Negocios')">
-                    
-                    <div class="absolute top-2 right-2 bg-white bg-opacity-90 p-2 rounded-full text-gray-800 opacity-0 group-hover:opacity-100 transition-opacity cursor-pointer z-10 shadow-md hover:text-blue-600" onclick="openModal(document.getElementById('imgPreview3').src, 'Carlos', '5-B Desarrollo de Negocios'); event.stopPropagation();" title="Ver completo">
-                        <i class="fas fa-expand-alt fa-lg"></i>
+
+                <!-- TARJETA 4 -->
+                <div class="animated-border-card group">
+                    <div class="card-inner p-5 flex flex-col items-center">
+                        <div class="w-full relative mb-5 overflow-hidden rounded-lg">
+                            <img id="imgPreview3" src="Tobias.JPG" alt="Evidencia Carlos" class="image-preview" onclick="
+                    openModal(this.src, 'Carlos', '5-B Desarrollo de Negocios')
+                  " />
+
+                            <div class="absolute top-2 right-2 bg-white bg-opacity-90 p-2 rounded-full text-gray-800 opacity-0 group-hover:opacity-100 transition-opacity cursor-pointer z-10 shadow-md hover:text-blue-600"
+                                onclick="
+                    openModal(
+                      document.getElementById('imgPreview3').src,
+                      'Carlos',
+                      '5-B Desarrollo de Negocios',
+                    );
+                    event.stopPropagation();
+                  " title="Ver completo">
+                                <i class="fas fa-expand-alt fa-lg"></i>
+                            </div>
+                        </div>
+                        <div class="w-full text-center space-y-1">
+                            <h4 class="font-bold text-gray-800 text-lg border-b-2 border-gray-100 pb-2">
+                                Roberto Tobias Atrisco Tinajero
+                            </h4>
+                            <p class="text-sm font-medium text-gray-500 pt-1">
+                                9-A Gestion y Desarrollo de Sotfware
+                            </p>
+                        </div>
                     </div>
                 </div>
-                <div class="w-full text-center space-y-1">
-                    <h4 class="font-bold text-gray-800 text-lg border-b-2 border-gray-100 pb-2">Roberto Tobias Atrisco Tinajero</h4>
-                    <p class="text-sm font-medium text-gray-500 pt-1">9-A Gestion y Desarrollo de Sotfware</p>
-                </div>
-            </div>
-        </div>
 
-         <!-- TARJETA 5 -->
-        <div class="animated-border-card group">
-            <div class="card-inner p-5 flex flex-col items-center">
-                <div class="w-full relative mb-5 overflow-hidden rounded-lg">
-                    <img id="imgPreview3" src="Isiidro.JPG" alt="Evidencia Carlos" class="image-preview" onclick="openModal(this.src, 'Carlos', '5-B Desarrollo de Negocios')">
-                    
-                    <div class="absolute top-2 right-2 bg-white bg-opacity-90 p-2 rounded-full text-gray-800 opacity-0 group-hover:opacity-100 transition-opacity cursor-pointer z-10 shadow-md hover:text-blue-600" onclick="openModal(document.getElementById('imgPreview3').src, 'Carlos', '5-B Desarrollo de Negocios'); event.stopPropagation();" title="Ver completo">
-                        <i class="fas fa-expand-alt fa-lg"></i>
+                <!-- TARJETA 5 -->
+                <div class="animated-border-card group">
+                    <div class="card-inner p-5 flex flex-col items-center">
+                        <div class="w-full relative mb-5 overflow-hidden rounded-lg">
+                            <img id="imgPreview3" src="Isiidro.JPG" alt="Evidencia Carlos" class="image-preview"
+                                onclick="
+                    openModal(this.src, 'Carlos', '5-B Desarrollo de Negocios')
+                  " />
+
+                            <div class="absolute top-2 right-2 bg-white bg-opacity-90 p-2 rounded-full text-gray-800 opacity-0 group-hover:opacity-100 transition-opacity cursor-pointer z-10 shadow-md hover:text-blue-600"
+                                onclick="
+                    openModal(
+                      document.getElementById('imgPreview3').src,
+                      'Carlos',
+                      '5-B Desarrollo de Negocios',
+                    );
+                    event.stopPropagation();
+                  " title="Ver completo">
+                                <i class="fas fa-expand-alt fa-lg"></i>
+                            </div>
+                        </div>
+                        <div class="w-full text-center space-y-1">
+                            <h4 class="font-bold text-gray-800 text-lg border-b-2 border-gray-100 pb-2">
+                                Isidro Corcuara Luciona
+                            </h4>
+                            <p class="text-sm font-medium text-gray-500 pt-1">
+                                9-A Desarrollo de Negocios
+                            </p>
+                        </div>
                     </div>
                 </div>
-                <div class="w-full text-center space-y-1">
-                    <h4 class="font-bold text-gray-800 text-lg border-b-2 border-gray-100 pb-2">Isidro Corcuara Luciona</h4>
-                    <p class="text-sm font-medium text-gray-500 pt-1">9-A Desarrollo de Negocios</p>
-                </div>
-            </div>
-        </div>
 
+                <!-- TARJETA 6 -->
+                <div class="animated-border-card group">
+                    <div class="card-inner p-5 flex flex-col items-center">
+                        <div class="w-full relative mb-5 overflow-hidden rounded-lg">
+                            <img id="imgPreview3" src="IMG_4233.JPG" alt="Evidencia Carlos" class="image-preview"
+                                onclick="
+                    openModal(this.src, 'Carlos', '5-B Desarrollo de Negocios')
+                  " />
 
-        <!-- TARJETA 6 -->
-        <div class="animated-border-card group">
-            <div class="card-inner p-5 flex flex-col items-center">
-                <div class="w-full relative mb-5 overflow-hidden rounded-lg">
-                    <img id="imgPreview3" src="IMG_4233.JPG" alt="Evidencia Carlos" class="image-preview" onclick="openModal(this.src, 'Carlos', '5-B Desarrollo de Negocios')">
-                    
-                    <div class="absolute top-2 right-2 bg-white bg-opacity-90 p-2 rounded-full text-gray-800 opacity-0 group-hover:opacity-100 transition-opacity cursor-pointer z-10 shadow-md hover:text-blue-600" onclick="openModal(document.getElementById('imgPreview3').src, 'Carlos', '5-B Desarrollo de Negocios'); event.stopPropagation();" title="Ver completo">
-                        <i class="fas fa-expand-alt fa-lg"></i>
+                            <div class="absolute top-2 right-2 bg-white bg-opacity-90 p-2 rounded-full text-gray-800 opacity-0 group-hover:opacity-100 transition-opacity cursor-pointer z-10 shadow-md hover:text-blue-600"
+                                onclick="
+                    openModal(
+                      document.getElementById('imgPreview3').src,
+                      'Carlos',
+                      '5-B Desarrollo de Negocios',
+                    );
+                    event.stopPropagation();
+                  " title="Ver completo">
+                                <i class="fas fa-expand-alt fa-lg"></i>
+                            </div>
+                        </div>
+                        <div class="w-full text-center space-y-1">
+                            <h4 class="font-bold text-gray-800 text-lg border-b-2 border-gray-100 pb-2">
+                                Alejando Sotelo Camacho
+                            </h4>
+                            <p class="text-sm font-medium text-gray-500 pt-1">
+                                5-B Desarrollo de Negocios
+                            </p>
+                        </div>
                     </div>
                 </div>
-                <div class="w-full text-center space-y-1">
-                    <h4 class="font-bold text-gray-800 text-lg border-b-2 border-gray-100 pb-2">Alejando Sotelo Camacho</h4>
-                    <p class="text-sm font-medium text-gray-500 pt-1">5-B Desarrollo de Negocios</p>
-                </div>
             </div>
-        </div>
-
-    </div>
-</section>
-
+        </section>
     </main>
 
     <!-- Modal para imagen a pantalla completa -->
     <div id="imageModal" class="modal">
         <span class="close-btn" onclick="closeModal()">&times;</span>
-        <img class="modal-content" id="modalImage">
+        <img class="modal-content" id="modalImage" />
         <div id="modalCaption" class="text-center text-white mt-4 text-xl"></div>
     </div>
 
-    <a href="TU_ARCHIVO_AQUI.pdf" target="_blank" class="fixed bottom-8 right-8 z-50 bg-gradient-to-r from-blue-600 to-green-500 text-white px-6 py-4 rounded-full shadow-2xl hover:shadow-[0_0_20px_rgba(16,185,129,0.5)] transform hover:-translate-y-2 hover:scale-105 transition-all duration-300 flex items-center gap-3 font-bold border-2 border-white group">
+    <a href="TU_ARCHIVO_AQUI.pdf" target="_blank"
+        class="fixed bottom-8 right-8 z-50 bg-gradient-to-r from-blue-600 to-green-500 text-white px-6 py-4 rounded-full shadow-2xl hover:shadow-[0_0_20px_rgba(16,185,129,0.5)] transform hover:-translate-y-2 hover:scale-105 transition-all duration-300 flex items-center gap-3 font-bold border-2 border-white group">
         <i class="fas fa-file-pdf text-2xl group-hover:animate-bounce"></i>
         <span>Completed Surveys</span>
     </a>
 
-
     <footer class="bg-gray-800 text-white py-6 mt-12 text-center">
-        <p class="text-sm text-gray-400">© 2026 AI in University Survey. Created for Inglés VIII.</p>
+        <p class="text-sm text-gray-400">
+            © 2026 AI in University Survey. Created for Inglés VIII.
+        </p>
     </footer>
 
-    
     <script src="script.js"></script>
 </body>
+
 </html>
